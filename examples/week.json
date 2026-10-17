@@ -1,0 +1,13 @@
+{
+  "now": "2026-10-17T08:00:00-04:00",
+  "tasks": [
+    {"id": "sql-lab", "title": "Finish SQL lab", "due": "2026-10-17T12:00:00-04:00", "estimate_minutes": 90, "completed_minutes": 30},
+    {"id": "api-tests", "title": "Write API integration tests", "due": "2026-10-17T18:00:00-04:00", "estimate_minutes": 120},
+    {"id": "design-note", "title": "Draft the MCP integration note", "due": "2026-10-18T12:00:00-04:00", "estimate_minutes": 90}
+  ],
+  "availability": [
+    {"start": "2026-10-17T09:00:00-04:00", "end": "2026-10-17T10:30:00-04:00"},
+    {"start": "2026-10-17T16:00:00-04:00", "end": "2026-10-17T17:00:00-04:00"},
+    {"start": "2026-10-18T09:00:00-04:00", "end": "2026-10-18T10:30:00-04:00"}
+  ]
+}

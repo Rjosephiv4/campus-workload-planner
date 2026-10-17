@@ -1,0 +1,8 @@
+{
+  "courses": [{
+    "id": 101,
+    "fullname": "Fictional database course",
+    "assignments": [{"id": 7001, "cmid": 9001, "name": "SQL lab", "duedate": 1792252800}]
+  }],
+  "warnings": []
+}

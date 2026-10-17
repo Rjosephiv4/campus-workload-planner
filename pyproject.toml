@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "campus-workload-planner"
+version = "0.1.0"
+description = "Deadline-aware study planning with an auditable SQLite history and a Moodle import boundary"
+requires-python = ">=3.11"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [{name = "Raymond Joseph"}]
+dependencies = []
+
+[project.optional-dependencies]
+api = ["fastapi>=0.115,<1", "uvicorn>=0.30,<1"]
+test = ["fastapi>=0.115,<1", "httpx>=0.27,<1"]
+
+[project.scripts]
+campus-plan = "campus_planner.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["campus_planner*"]
